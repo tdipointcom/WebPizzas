@@ -25,6 +25,6 @@ define("WEBSITE_TITLE","Web Pizzas !");
 $env = "prod";
 
 // Liste des domaines que l'on considère comme étant des environnements de développement
-$dev_domain = [
+$dev_domains = [
     "127.0.0.1", "localhost", "webpizzas.local"
 ];
