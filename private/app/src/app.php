@@ -3,6 +3,7 @@
 * Fichier d'exécution de l'application
 */
 
+
 /**
  * 1- Intégration de la configuration
  */
@@ -29,6 +30,12 @@ require_once "../private/app/src/db_connect.php";
 require_once "../private/app/src/routing.php";
 
 /**
- * 6- Compilation de la page
+ * 6- Inclusion des fonctions utiles
+ */
+require_once "../private/app/src/load_utils.php";
+
+
+/**
+ * 7- Compilation de la page
  */
 require_once "../private/app/src/compile.php";

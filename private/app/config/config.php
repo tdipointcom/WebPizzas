@@ -14,6 +14,9 @@
 // WEBSITE_TITLE Définition du titre du site
 define("WEBSITE_TITLE","Web Pizzas !");
 
+// Définir le chemin du répertoire "utils"
+define('UTILS_PATH', "../private/app/utils/");
+
 
 /**
  * 2. Définition des variables d'environnement d'éxécution
