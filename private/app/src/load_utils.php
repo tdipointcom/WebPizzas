@@ -2,10 +2,12 @@
 /**
  * Fichier de chargement automatique des script du répertoire /private/app/utils
  */
+
 // Test si la constante UTILS_PATH n'est pas définie.
 if (!defined('UTILS_PATH')) {
     define('UTILS_PATH', null);
 }
+
 if (UTILS_PATH != null) 
 {
     // Scanner le répertoir UTILS_PATH
@@ -22,5 +24,3 @@ if (UTILS_PATH != null)
         }
     }
 }
-
-
