@@ -1,12 +1,12 @@
 <?php
 /**
- * Fichier de définition des routes de l'applications
+ * Fichier de définition des routes de l'application
  * 
- * - Chaque ligne du tableau $routes défini une route
- * - Chaque route est défini par
+ * - Chaque ligne du tableau $routes définit une route
+ * - Chaque route est définie par
  *      - Le nom de la route
  *      - Le "path"
- *      - Le "controller", la focntion déclenché par la route
+ *      - Le "controller", la focntion déclenchée par la route
  *      - La|Les méthode(s)
  */
 
